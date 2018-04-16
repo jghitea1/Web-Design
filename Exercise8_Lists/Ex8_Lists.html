@@ -17,19 +17,18 @@
             }
             ol
             {
-                font-size: 28px;
                 font-family:sans-serif;
                 margin-top: -3px;
             }
             ul
             {
-                font-size: 28px;
                 font-family:sans-serif;
                 margin-top: -3px;
             }
-            li
+            table, th, td 
             {
-                font-size: 20px
+                border: 2px solid black;
+                padding: 5px
             }
         </style>
     </head>
@@ -120,46 +119,50 @@
                 </li>
             </ol>
     </h2>
-    
-    <div style="border: solid rgb(0, 0, 0) 2px; padding-left: 10px"></div>
+    </div>
+    <div style="border: solid rgb(0, 0, 0) 2px; padding-left: 10px">
     <h1>
             Lists within Tables
     </h1>
-
-    <h2 style= "margin-top: -10px"> Stuff I Hate (with numbers)
-            <ol type="1"> 
-                <li>
-                    Ladders
-                </li>
-                <li>
-                    JSFiddle
-                </li>
-            </ol>
-        </h2>
-    
-        <h2 style= "margin-top: -10px"> Stuff I Hate (with letters)
-                <ol type="A"> 
-                    <li>
-                        Ladders
-                    </li>
-                    <li>
-                        JSFiddle
-                    </li>
-                </ol>
-            </h2>
-    
-        <h2 style= "margin-top: -10px"> Stuff I Hate (with numerals)
-                <ol type="I"> 
-                    <li>
-                        Ladders
-                    </li>
-                    <li>
-                        JSFiddle
-                    </li>
-                </ol>
-        </h2>
-
-    </div>
+    <table style="border: 2px solid black">
+        <tr style= "text-align: left">  
+            <th>
+                Stuff I Hate
+            </th>
+            <th>
+                Why I Hate It
+            </th>
+            <th>
+                Do I Actually Hate It
+            </th>
+        </tr>
+        <tr style= "text-align: left">  
+            <th>
+                Ladders
+            </th>
+            <th>
+                <li>Sketchiest Thing Ever</li>
+                <li></li>
+            </th>
+            <th>
+                <li>Yes, keep them away from me.</li>
+                <li></li>
+            </th>
+        </tr>
+        <tr style= "text-align: left">  
+            <th>
+                Ladders
+            </th>
+            <th>
+                <li>Sketchiest Thing Ever</li>
+                <li></li>
+            </th>
+            <th>
+                <li>Yes, keep them away from me.</li>
+                <li></li>
+            </th>
+        </tr>
+    </table>
     </div>
     </div>
     <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
