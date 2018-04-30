@@ -1,28 +1,28 @@
-header {
+header
+{
     background-color: white;
     text-align: left;
     padding: 20px;
-    border: 10px inset blue;
+    border: 10px outset blue;
     font-size: 32;
 }
 
-p {
+p
+{
     margin-top: 2px;
     text-align: left;
     margin-top: 10px;
     font-size: 18
 }
 
-h2 {
-    margin-top: -5px;
-}
-
-body {
+body 
+{
     align-content: center;
     background-color: skyblue;
 }
 
-h1 {
+h1
+{
     width: 100%;
     height: 20%;
     border: 5px inset blue;
@@ -30,7 +30,12 @@ h1 {
     font-size: 28
 }
 
-div {
+h2 {
+    margin-top: -5px
+}
+
+div
+{
     padding-left: 5px;
     margin-top: 15;
     border: 5px inset blue;
@@ -39,7 +44,8 @@ div {
     height: 300px;
 }
 
-#Facebook_Files {
+#Facebook_Files
+{
     padding-left: 5px;
     margin-top: -10;
     width: 100%;
@@ -49,7 +55,8 @@ div {
     height: 300px;
 }
 
-footer {
+footer
+{
     padding-left: 5px;
     margin-top: -10px;
     height: 100px;
@@ -58,62 +65,40 @@ footer {
     font-size: 28;
 }
 
-hr {
+hr
+{
     margin-top: -2;
     border: 2px dotted;
 }
 
 ul {
-    margin-bottom: -10;
-    margin-top: -35;
     align-content: center;
     list-style-type: none;
     padding: 5px 5px 5px 5px;
-    width: 210px;
-    border: 2px solid black;
     background-color: blue;
     font-family: calibri;
     font-weight: bold;
+    overflow: hidden;
 }
 
-ul.b {
-    margin-bottom: -10;
-    margin-top: -35;
-    align-content: center;
-    list-style-type: none;
-    padding: 5px 5px 5px 5px;
-    width: 210px;
-    border: 2px solid black;
-    background-color: blue;
-    font-family: calibri;
-    font-weight: bold;
+li{
+    float:left
 }
 
 li a {
     display: block;
-    width: 200px;
     color: white;
     padding: 5px;
     text-decoration: none;
+    display: inline-block;
 }
 
-li.b {
-    display: block;
-    width: 200px;
-    color: white;
-    padding: 5px;
-    text-decoration: none;
-}
-
-    li.b:hover {
-        background-color: magenta;
-    }
-
-li:hover {
+li a:hover 
+{
     background-color: red;
-    border: 1px solid white;
 }
 
-.active {
+.active
+{
     background-color: black;
 }
