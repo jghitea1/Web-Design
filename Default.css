@@ -81,20 +81,6 @@ ul
     font-weight: bold;
 }
 
-ul.b
-{
-    margin-bottom: -10;
-    margin-top: -35;
-    align-content: center;
-    list-style-type: none;
-    padding: 5px 5px 5px 5px;
-    width: 210px;
-    border: 2px solid black;
-    background-color: blue;
-    font-family: calibri;
-    font-weight: bold;
-}
-
 li a 
 {
     display: block;
@@ -104,21 +90,7 @@ li a
     text-decoration: none;
 }
 
-li.b 
-{
-    display: block;
-    width: 200px;
-    color: white;
-    padding: 5px;
-    text-decoration: none;
-}
-
-li.b:hover 
-{
-    background-color: magenta;
-}
-
-li.a:hover 
+li a:hover 
 {
     background-color: red;
     border: 1px solid white;
