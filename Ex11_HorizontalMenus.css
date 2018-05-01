@@ -34,14 +34,21 @@ h2 {
     margin-top: -5px
 }
 
-div
-{
+div.a{
     padding-left: 5px;
     margin-top: 15;
     border: 5px inset blue;
     background-color: white;
     font-size: 28;
     height: 300px;
+}
+
+div.b{
+    height:50px
+}
+
+div.c{
+    
 }
 
 #Facebook_Files
@@ -91,6 +98,10 @@ li a {
     padding: 5px;
     text-decoration: none;
     display: inline-block;
+}
+
+#main{
+    background-color: black
 }
 
 li a:hover 
