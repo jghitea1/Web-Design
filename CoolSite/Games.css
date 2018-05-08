@@ -78,6 +78,13 @@ hr
     border: 2px dotted;
 }
 
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
 .navbar {
     overflow: hidden;
     background-color: blue;

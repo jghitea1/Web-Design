@@ -1,0 +1,54 @@
+<!--<div id="putgamehere">
+			<script>window.onload = function () {
+				if( !document.getElementById ) { return; } // To be nice to old browsers
+				var game1 = new solitaireGame('solitaire1',document.getElementById('putgamehere'));
+				game1.addImagePack('cardsets/h36/',[['walk','Mountain walk'],['midnightsun','Midnight sun']],'.png',25,36,'Northern Norway');
+				game1.addImagePack('cardsets/h96/',[['bluepattern','Blue pattern'],['blue','Plain blue'],['x','Red X']],'.gif',71,96,'Once in a Lifetime');
+				game1.addImagePack('cardsets/h135/',[['orcaspyhop1','Orca spy-hop 1'],['orcaspyhop2','Orca spy-hop 2'],['orcajump','Orca jump'],['dolphin','Dolphin'],['puffin','Puffin'],['puffingrass','Puffin lookout'],['puffingroup','Puffin group'],['lizard','Lizard'],['turtle','Turtle'],['cloud','Shroud of cloud'],['redwine','Red wine'],['horse','Horseback'],['mouldings','Mouldings']],'.png',90,135,'Orca');
+				game1.startGame();
+			}</script>
+			<div class="workspace">
+				<div class="hotspot">Text</div>
+				... 13 of them ...
+				<div class="extrabuttons">
+				<div><img src="src" alt="Text"></div>
+				... 2 of them ...
+				</div>
+				<div class="playingcard"><img src="src" alt="Text"></div>
+				... 52 of them ...
+				<div class="solitaireprefs">
+				<form>
+					<div style="float:right;">
+					<div>
+					<img src="src" alt="Text">
+					... 2 of them ...
+					</div>
+					... 2 of them ...
+					</div>
+					<h3>Text</h3>
+					<h4>Text</h4>
+					<p>
+					<label>
+					Text<br/>
+					<select>
+					<option>Text</option>
+					... as many as needed ...
+					</select>
+					</label>
+					</p>
+					... 2 of them ...
+					<h4>Text</h4>
+					<p>
+					<select>
+					<option>Text</option>
+					... 2 of them ...
+					</select>
+					</p>
+					<p>
+					<input type="button" value="Text">
+					... 2 of them ...
+					</p>
+					</form>
+				</div>
+				</div>
+			</div>-->
