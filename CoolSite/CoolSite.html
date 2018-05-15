@@ -4,9 +4,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="CoolSite.css">
-	<script src="PATH TO SCRIPT/cardgamecore.js" type="text/javascript"></script>
-	<script src="PATH TO SCRIPT/solitaire.js" type="text/javascript"></script>
 	<title>Cool Website</title>
+	<script>
+	    var shiftWindow = function() { scrollBy(0, -75) };
+	    window.addEventListener("hashchange", shiftWindow);
+	    function load() { if (window.location.hash) shiftWindow(); }
+  	</script>
+  	
+	<script>
+		//When the user clicks on the button,
+		//toggle between hiding and showing the dropdown content
+		function myFunction() {
+		    document.getElementById("myDropdown").classList.toggle("show");
+		}
+		
+		// Close the dropdown if the user clicks outside of it
+		window.onmousemove = function(e) {
+		  if (!e.target.matches('.dropbtn')) {
+		    var myDropdown = document.getElementById("myDropdown");
+		     if (myDropdown.classList.contains('show')) {
+		        myDropdown.classList.remove('show');
+		      }
+		  }
+		}
+	</script>
+  	
 </head>
 
 <header>
@@ -27,20 +49,21 @@
 	<a href="#about">About</a>
 	<a href="#contacts">Contacts</a>
 	<div class="dropdown">
-	<button class="dropbtn" onmouseover="myFunction()">Popular
-		<i class="fa fa-caret-down"></i>
-	</button>
-	<div class="dropdown-content" id="myDropdown">
-		<a href="#learn2fly">Learn 2 Fly</a>
-		<a href="#geometry">Geometry Dash</a>
-		<a href="#zelda">WIP</a>
-		<a href="#sonic">WIP</a>
+	<div class="drop">
+		<button class="dropbtn" onmouseover="myFunction()">Games
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content" id="myDropdown">
+			<a href="#learn2fly">Learn 2 Fly</a><br>
+			<a href="#geometry">Geometry Dash</a><br>
+			<a href="#zelda">WIP</a><br>
+		</div>
 	</div>
 	</div>
 </div>
 </div>
 
-<body>
+<body background="background-space.jpg">
 	<div class="a">
     <h2 id="home">
         Home
@@ -113,6 +136,21 @@
         <br />
     </h2>
     </div class="a">
+    <!--
+    <div class="a" id="doodlegod">
+	<h2>
+        Doodle God 2
+        <hr />
+        <br />
+        <img src="C:\Users\jghit\Documents\GitHub\Web-Design\CoolSite\geometrydashflash.jpg" float="left"/>
+        <br />
+        <a href="C:\Users\jghit\Documents\GitHub\Web-Design\CoolSite\DoodleGod.html">Play Game</a>
+        <!--<p>
+			<embed width="640" height="480" base="https://external.kongregate-games.com/gamez/0011/5608/live/" src="https://external.kongregate-games.com/gamez/0011/5608/live/embeddable_115608.swf" type="application/x-shockwave-flash"></embed>
+		</p>-->
+        <br />
+    </h2>
+    </div class="a">
 	<div class="a">
     <h2 id="about">
         About Me
@@ -132,23 +170,5 @@
         jghitea@gmail.com
     </p>
 </footer> </b>
-
-<script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-    var myDropdown = document.getElementById("myDropdown");
-      if (myDropdown.classList.contains('show')) {
-        myDropdown.classList.remove('show');
-      }
-  }
-}
-</script>
 
 </html>
