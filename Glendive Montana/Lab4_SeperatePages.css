@@ -8,6 +8,7 @@ header
   color: maroon;
   text-shadow: 1px 1px black;
   background-image: url("fossilwall.jpg");
+  border-bottom: 5px solid maroon;
 }
 
 p
@@ -16,6 +17,12 @@ p
   text-align: left;
   margin-top: 10px;
   font-size: 18px;
+}
+
+a.codes
+{
+    color: darkgreen;
+    text-decoration: underline
 }
 
 body
@@ -80,6 +87,8 @@ footer
   font-size: 24px;
   margin-top: 15px;
   margin-bottom: 0px;
+  bottom: 0;
+  overflow: hidden
 }
 
 hr
@@ -88,6 +97,11 @@ hr
   margin-bottom: -5px;
   border: 2px dotted;
   color: darkgreen
+}
+
+ul
+{
+    font-size: 18px;
 }
 
 .menu
@@ -195,6 +209,4 @@ a
 img.a
 {
   float: right;
-  top: 0;
-  right: 0;
 }
